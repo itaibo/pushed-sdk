@@ -1,7 +1,7 @@
 {
-  "name": "package",
-  "version": "0.0.0",
-  "description": "",
+  "name": "pushed-sdk",
+  "version": "1.0.0",
+  "description": "Unofficial pushed.co JavaScript SDK",
   "scripts": {
     "build": "rm -rf ./dist && npm run build:esm && npm run build:cjs && sh ./scripts/build-packages.sh",
     "build:esm": "tsc -p tsconfig.esm.json",
@@ -32,16 +32,15 @@
     }
   },
   "keywords": [
-    "hetzner",
     "sdk",
-    "cloud"
+    "pushed"
   ],
-  "homepage": "https://github.com/itaibo",
+  "homepage": "https://github.com/itaibo/pushed-api",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itaibo.git"
+    "url": "git+https://github.com/itaibo/pushed-api.git"
   },
   "bugs": {
-    "url": "https://github.com/itaibo/issues"
+    "url": "https://github.com/itaibo/pushed-api/issues"
   }
 }
