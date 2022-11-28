@@ -1,5 +1,5 @@
 # Pushed SDK
-![Tests](https://github.com/itaibo/pushed-sdk/actions/workflows/ci.yaml/badge.svg)
+![CI](https://github.com/itaibo/pushed-sdk/actions/workflows/ci.yml/badge.svg)
 
 Unofficial pushed.co JavaScript SDK. Has been created using  The [Pushed API Docs](https://about.pushed.co/docs/api) as reference.
 
