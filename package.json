@@ -35,12 +35,12 @@
     "sdk",
     "pushed"
   ],
-  "homepage": "https://github.com/itaibo/pushed-api",
+  "homepage": "https://github.com/itaibo/pushed-sdk",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itaibo/pushed-api.git"
+    "url": "git+https://github.com/itaibo/pushed-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/itaibo/pushed-api/issues"
+    "url": "https://github.com/itaibo/pushed-sdk/issues"
   }
 }
