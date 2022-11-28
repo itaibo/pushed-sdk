@@ -42,7 +42,7 @@ export default class PushedSdk {
 		});
 	}
 
-	// Scope
+	// Notifications
 	public readonly notifications = {
 		send: async (parameters: object = {}): Promise<any> => {
 			const result = await this.request('/push', { method: 'post', data: parameters });
