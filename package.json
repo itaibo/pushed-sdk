@@ -42,5 +42,8 @@
   },
   "bugs": {
     "url": "https://github.com/itaibo/pushed-sdk/issues"
-  }
+  },
+  "files": [
+    "dist/**/*"
+  ]
 }
