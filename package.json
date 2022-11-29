@@ -1,6 +1,6 @@
 {
   "name": "pushed-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Unofficial pushed.co JavaScript SDK",
   "scripts": {
     "build": "rm -rf ./dist && npm run build:esm && npm run build:cjs && sh ./scripts/build-packages.sh",
