@@ -20,7 +20,7 @@ const pushed = new Pushed({
 });
 
 // Send notification to all users subscribed to app
-await pusher.notifications.send({
+await pushed.notifications.send({
 	content: 'Hey from the pushed-sdk package!',
 	content_extra: 'https://github.com/itaibo/pushed-sdk',
 	content_type: 'url',
