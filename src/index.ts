@@ -7,7 +7,7 @@ export interface Initializer {
 	app_secret: string;
 };
 
-export interface NotificationRequest {
+export interface NotificationRequestParameters {
 	content: string;
 	content_type?: 'url';
 	content_extra?: string;
@@ -20,7 +20,6 @@ export interface NotificationRequest {
 export default class PushedSdk {
 	app_key: string;
 	app_secret: string;
-	headers: object;
 
 	constructor(initializer: Initializer) {
 		this.app_key = initializer.app_key;
@@ -44,7 +43,7 @@ export default class PushedSdk {
 
 	// Notifications
 	public readonly notifications = {
-		send: async (parameters: object = {}): Promise<any> => {
+		send: async (parameters: NotificationRequestParameters): Promise<any> => {
 			const result = await this.request('/push', { method: 'post', data: parameters });
 			return result;
 		},
